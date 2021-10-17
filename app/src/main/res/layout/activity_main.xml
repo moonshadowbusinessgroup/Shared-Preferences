@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="User Form"
+            android:textColor="#474361"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/nameE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg1"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#495464" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/emailE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg1"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#495464" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/genderE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg1"
+            android:hint="Gender"
+            android:inputType="text"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#495464" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/mobileE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg1"
+            android:hint="Mobile"
+            android:inputType="number"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#495464" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/locationE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg1"
+            android:hint="Location"
+            android:inputType="text"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#495464" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="30dp"
+            android:background="@drawable/bg2"
+            android:text="save" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
